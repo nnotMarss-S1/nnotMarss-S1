@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta property="og:title" content="NAVDAA - Homepage">
+  <meta property="og:description" content="Looks like this site got yeeted out of existence!">
+  <meta property="og:image" content="https://cdn-store-image.navdaa.site/assets/images/logo/navdaa_N-white.png">
+  <meta property="og:url" content="https://www.navdaa.site">
+  <meta property="og:type" content="website"> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navdaa.css">
+  <!-- <link rel="shortcut icon" href="https://cdn-store-image.navdaa.site/assets/images/logo/navdaa_N-gray.png" type="image/x-icon"> -->
+  <title>NAVDAA - Homepage</title>
+  </head>
+<body>
+    <div class="header">
+        <a class="header-link" href="#">Home</a>
+        <a class="header-link" href="#">About</a>
+        <a class="header-link" href="#">Contact</a>
+    </div>
+    <div class="container">
+
+        <div class="notification-container" id="pop">
+            <span class="notification-message">Beta version of this website is avaible at<a href="#">this</a>link.</span>
+            <span onclick="hideNotification('pop')" class="close-btn">X</span>
+        </div>
+
+      <div class="right-half-img">
+        <div class="content">
+          <h1>Work in progress!</h1>
+          <h2>Our site is still under development!</h2>
+          <hr>
+          <p>For some content from us, check out our<a href="https://redirect-to.navdaa.site/@NAVDAA/GitHub">GitHub</a>account! :3</p>
+          <p>Or check out our <a href="#" class="stylized" onclick="showNotification('pop')">Beta</a> version of out site!</p>
+          <!-- <ul class="main-menu">
+            <li>Projects
+              <ul class="sub-menu">
+                <li>Pluto</li>
+                <li>Venus</li>
+                <li>Mars</li>
+              </ul>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p> <a class="stylized">&copy; 2023 NAVDAA Software. All rights reserved.</a></p>
+    </div>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const mainMenu = document.querySelector(".main-menu");
+  const subMenu = mainMenu.querySelector(".sub-menu");
+
+  mainMenu.addEventListener("mouseenter", function () {
+    subMenu.classList.add("show-sub-menu");
+  });
+
+  mainMenu.addEventListener("mouseleave", function () {
+    subMenu.classList.remove("show-sub-menu");
+  });
+});
+
+  </script>
+  </body>
+
+</html>
