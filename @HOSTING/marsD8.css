@@ -1,0 +1,10 @@
+@import url("https://github.com/XYZenix/XYZenixThemes/raw/refs/heads/master/DTM-08-V2/dtm-08-v2.css");
+@import url("https://github.com/XYZenix/XYZenixThemes/raw/refs/heads/master/DTM-08-V2/rounded-server-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
+:root {
+    --font: 'JetBrains Mono';
+    --font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
